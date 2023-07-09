@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    line-height: 25vh;
+    background-color: #26c7eb;
+    font-family: 'Carter One', cursive;
+    background-image: url("headerbg.jpg");
+   
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    letter-spacing: 20px;
+    text-shadow: 0 1px 0 #efefef,
+        0 1px 0 #efefef,
+        0 1px 0 #efefef,
+        0 1px 0 #efefef,
+        0 1px 0 #efefef,
+        0 30px 5px rgba(0, 0, 0, .1);
+}
+section{
+  
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7bed9f;
+    background-image: url("sectionbg4.jpg");
+}
+.normal{
+    background-color: #7bed9f;
+    border-radius: 15px;
+    padding: 5px 2px;
+}
+.gameArea{
+  
+    width: 50%;
+    height: 400px;
+    padding: 20px 0px;
+    font-weight: bolder;
+    /* font-size: 1.8rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+    color:rgb(0, 76, 255);
+    letter-spacing: 3px;
+  
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+input{
+    width: 40%;
+    padding: 15px 0px;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #dff9fb;
+    color: rgb(7, 137, 68);
+    font-weight: bold;
+    margin: 2rem 0;
+}
+button{
+    font-size: 1.8rem;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+    outline: none;
+    border: #2f3542;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: white;
+}
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background:#eb4d4b;
+    text-transform: uppercase ;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, -0.25,0.25, 1.95);
+
+}
+button.btn:hover, button.btn:focus, button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+.hidden{
+    display: none;
+}
+.hint{
+    font-size: 1.6rem;
+    color: black;
+}
+
