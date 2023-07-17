@@ -33,7 +33,7 @@ btn.addEventListener('click', function(){
         msg.innerHTML = `GUESS THE WORD: ${randWords.join("")}`;
     }
     else{
-        let tempWord = guess.value;
+        let tempWord = guess.value.toLowerCase();
         if(tempWord ==newWords){
             play=false;
             msg.innerHTML= `AWESOME IT'S CORRECT`;
